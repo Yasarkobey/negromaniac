@@ -1,0 +1,30 @@
+{
+  "prefix": "!",
+  "minecraft": {
+    "host": "your-server-ip",
+    "port": 25565,
+    "username": "TownyBot",
+    "version": "1.19.2"
+  },
+  "discord": {
+    "token": "YOUR_DISCORD_TOKEN",
+    "admin_roles": ["Admin", "Moderator", "Owner"],
+    "command_channel": "towny-commands",
+    "admin_channel": "admin-panel"
+  },
+  "towny": {
+    "auto_save": 300,
+    "max_towns": 50,
+    "max_nations": 10,
+    "starting_balance": 1000
+  },
+  "siegewar": {
+    "enabled": true,
+    "war_chest": 5000,
+    "siege_duration": 48
+  },
+  "web_panel": {
+    "port": 8080,
+    "password": "admin123"
+  }
+}

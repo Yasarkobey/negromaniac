@@ -1,0 +1,57 @@
+{
+  "towny": {
+    "info": "towny-info",
+    "create": "town create {town_name}",
+    "join": "town join {town_name}",
+    "leave": "town leave",
+    "kick": "town kick {player}",
+    "invite": "town invite {player}",
+    "claim": "town claim",
+    "unclaim": "town unclaim",
+    "balance": "town balance",
+    "deposit": "town deposit {amount}",
+    "withdraw": "town withdraw {amount}",
+    "setspawn": "town setspawn",
+    "ranks": "town ranks",
+    "rank_add": "town rank add {player} {rank}",
+    "rank_remove": "town rank remove {player} {rank}",
+    "list": "town list",
+    "top": "town top"
+  },
+  "nation": {
+    "create": "nation create {nation_name}",
+    "join": "nation join {nation_name}",
+    "leave": "nation leave",
+    "invite": "nation invite {town}",
+    "kick": "nation kick {town}",
+    "balance": "nation balance",
+    "deposit": "nation deposit {amount}",
+    "withdraw": "nation withdraw {amount}",
+    "ally": "nation ally {nation}",
+    "enemy": "nation enemy {nation}",
+    "list": "nation list"
+  },
+  "siegewar": {
+    "siege": "siege start {town}",
+    "siege_info": "siege info {town}",
+    "siege_list": "siege list",
+    "war_chest": "siege warchest {amount}",
+    "surrender": "siege surrender",
+    "banner": "siege placebanner"
+  },
+  "player": {
+    "tpa": "tpa {player}",
+    "balance": "balance",
+    "pay": "pay {player} {amount}",
+    "stats": "stats"
+  },
+  "admin": {
+    "give_balance": "townyadmin town add {town} {amount}",
+    "set_balance": "townyadmin town set {town} {amount}",
+    "delete_town": "townyadmin town delete {town}",
+    "delete_nation": "townyadmin nation delete {nation}",
+    "set_mayor": "townyadmin town set mayor {town} {player}",
+    "set_king": "townyadmin nation set king {nation} {player}",
+    "reload": "townyadmin reload"
+  }
+}
